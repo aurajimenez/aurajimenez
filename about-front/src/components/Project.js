@@ -40,10 +40,15 @@ class Project extends Component {
             <ul >
                   {projects.map((project) => (
                   <li key={project.pk}>
-                    <div className="card mb-4 shadow-sm">
+      
+
+                    
+
+
                       {project.date} - {project.techonologies} - {project.description}
+          
+                      
                       {project.name} - {project.company} - {project.link}
-                    </div>
                   </li>))}
             </ul>
           );

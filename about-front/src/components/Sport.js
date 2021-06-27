@@ -38,9 +38,9 @@ class Sport extends Component {
         if (this.state.loaded === false){
           return (
             <ul>
-              {hobbies.filter(per => per.types === 'Sports').map((hobbies) => (<li key={hobbies.pk}>
+              {hobbies.filter(per => per.types === 'Sports').map((hobbies) => (<div key={hobbies.pk}>
                   {hobbies.description} - {hobbies.name} - {hobbies.images}
-                </li>))}
+                </div>))}
             </ul>
           );
         }
@@ -48,9 +48,9 @@ class Sport extends Component {
           <ul>
             {this.state.data.filter(hobbie => hobbie.types === 'Sports').map(sport => {
               return ( 
-                <li key={sport.pk}>
+                <div key={sport.pk}>
                   {sport.name} - {sport.images} - {sport.description}
-                </li>
+                </div>
               );
             })}
           </ul>

@@ -17,6 +17,12 @@ class Education extends Component {
         return (
             <Router>
                 <div className="container" >
+                    <div className="container" >
+                        <div className="col-lg-8 offset-2">
+                            <h5><b>B.S. System Engineer: </b>Universidad del Valle, Cali, Colombia</h5>
+                            <h5><b>Information Systems Technology: </b>Universidad del Valle, Cali, Colombia</h5>
+                        </div>
+                    </div>
                     <div className="row">
                         <div className="col-sm-4 offset-2">
                             <div className="card mb-4 shadow-sm">
@@ -37,12 +43,6 @@ class Education extends Component {
                                     </div>
                                 </Link>
                             </div>
-                        </div>
-                    </div>
-                    <div className="container" >
-                        <div className="col-lg-8 offset-2">
-                            <h5><b>B.S. System Engineer: </b>Universidad del Valle, Cali, Colombia</h5>
-                            <h5><b>Information Systems Technology: </b>Universidad del Valle, Cali, Colombia</h5>
                         </div>
                     </div>
                     <br></br>
