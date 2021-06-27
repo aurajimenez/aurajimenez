@@ -1,0 +1,8 @@
+.Me {
+    text-align: center;
+  }
+
+.Me-foto {
+  height: 40vmin;
+  pointer-events: none;
+}
