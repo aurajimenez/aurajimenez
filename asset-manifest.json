@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/aurajimenez/static/css/main.be2dcaaf.chunk.css",
+    "main.js": "/aurajimenez/static/js/main.fc9dd1ae.chunk.js",
+    "main.js.map": "/aurajimenez/static/js/main.fc9dd1ae.chunk.js.map",
+    "runtime-main.js": "/aurajimenez/static/js/runtime-main.8e761045.js",
+    "runtime-main.js.map": "/aurajimenez/static/js/runtime-main.8e761045.js.map",
+    "static/js/2.50b2dbe1.chunk.js": "/aurajimenez/static/js/2.50b2dbe1.chunk.js",
+    "static/js/2.50b2dbe1.chunk.js.map": "/aurajimenez/static/js/2.50b2dbe1.chunk.js.map",
+    "index.html": "/aurajimenez/index.html",
+    "static/css/main.be2dcaaf.chunk.css.map": "/aurajimenez/static/css/main.be2dcaaf.chunk.css.map",
+    "static/js/2.50b2dbe1.chunk.js.LICENSE.txt": "/aurajimenez/static/js/2.50b2dbe1.chunk.js.LICENSE.txt",
+    "static/media/foto.54656cfe.png": "/aurajimenez/static/media/foto.54656cfe.png",
+    "static/media/gmail.73dbddd0.png": "/aurajimenez/static/media/gmail.73dbddd0.png",
+    "static/media/logo.103b5fa1.svg": "/aurajimenez/static/media/logo.103b5fa1.svg",
+    "static/media/tools.5164a2a4.jpg": "/aurajimenez/static/media/tools.5164a2a4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e761045.js",
+    "static/js/2.50b2dbe1.chunk.js",
+    "static/css/main.be2dcaaf.chunk.css",
+    "static/js/main.fc9dd1ae.chunk.js"
+  ]
+}
