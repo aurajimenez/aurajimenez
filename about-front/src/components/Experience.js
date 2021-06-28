@@ -17,7 +17,7 @@ class Experience extends Component {
     render() {
         return (
             <Router>
-            <div className="container">
+            <div className="containerH">
                 <div className="row">
                     <div className="col-sm-4 offset-2">
                         <div className="card mb-4 shadow-sm">

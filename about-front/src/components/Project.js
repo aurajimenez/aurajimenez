@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Project.css';
 import data2 from '../data/project.json';
+import { Card, CardGroup } from 'react-bootstrap';
 
 const projects = data2;
 
@@ -37,19 +38,23 @@ class Project extends Component {
       render() {
         if (this.state.loaded === false){
           return (
-            <ul >
+           <ul>
+             <CardGroup> 
                   {projects.map((project) => (
                   <li key={project.pk}>
-      
-
-                    
-
-
-                      {project.date} - {project.techonologies} - {project.description}
-          
-                      
-                      {project.name} - {project.company} - {project.link}
+                    <Card>
+                      <Card.Body>
+                        <Card.Title>{project.name} - {project.company} - {project.date} - <a href={project.link} target="_blank">View</a></Card.Title>
+                        <Card.Text>
+                         {project.description} 
+                        </Card.Text>
+                        <Card.Text>
+                         {project.techonologies}
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
                   </li>))}
+              </CardGroup>
             </ul>
           );
         }
@@ -57,13 +62,22 @@ class Project extends Component {
           <ul>
             {this.state.data.map(project => {
               return (
-                
+                <CardGroup> 
+                  {projects.map((project) => (
                     <li key={project.pk}>
-                      <div className="card mb-4 shadow-sm">
-                        {project.date} - {project.techonologies} - {project.description} - {project.name}- {project.company}- {project.link}
-                      </div>
-                    </li>
-            
+                      <Card>
+                        <Card.Body>
+                          <Card.Title>{project.name} - {project.company} - {project.date} - <a href={project.link} target="_blank">View</a></Card.Title>
+                          <Card.Text>
+                          {project.description} 
+                          </Card.Text>
+                          <Card.Text>
+                          {project.techonologies}
+                          </Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </li>))}
+                </CardGroup>
               );
             })}
           </ul>

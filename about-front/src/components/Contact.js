@@ -7,9 +7,9 @@ import './Contact.css';
 class Contact extends Component {
     render() {
         return (
-            <div className="col-lg-6">                  
+            <div className="col-md-4 offset-4">                  
                 <h3> Contact </h3>                           
-                <div className="container">
+                <div className="containerH">
                     <div>
                         <img src={gmail} className="Contact-gmail" alt="gmail" />
                         <p align="center">auracristina.jimenezg@gmail.com</p>

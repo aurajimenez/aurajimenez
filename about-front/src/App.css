@@ -21,29 +21,29 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #a3a3a3;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #a3a3a3;
 }
 
-ul
-{
+ul {
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
 }
-li
-{
+
+li {
 	float:left;
 }
-a
-{
+
+a {
 	display:block;
   width:140px;
-  color: #61dafb;
+  color: #a3a3a3;
+  text-decoration:none;
 }
 
 @keyframes App-logo-spin {
@@ -61,5 +61,5 @@ a
   left:0;
   bottom:0;
   right:0;
-  color: white;
+  color: #ffffff;
 }

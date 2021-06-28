@@ -16,34 +16,24 @@ class Education extends Component {
     render() {
         return (
             <Router>
-                <div className="container" >
-                    <div className="container" >
-                        <div className="col-lg-8 offset-2">
-                            <h5><b>B.S. System Engineer: </b>Universidad del Valle, Cali, Colombia</h5>
-                            <h5><b>Information Systems Technology: </b>Universidad del Valle, Cali, Colombia</h5>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-sm-4 offset-2">
-                            <div className="card mb-4 shadow-sm">
+                <div className="containerH" >
+                    <div className="row" >
+                                <div class="card-body">
+                                    <h6><b>B.S. System Engineer</b></h6>
+                                    <h6><b>Information Systems Technology</b></h6>
+                                </div>
+                            
                                 <Link to="/certificate">
                                     <div class="card-body">
-                                        <p>Certificaciones</p>
                                         <img src={certificate} className="Me-qa" alt="certificate"/>
                                     </div>
                                 </Link>
-                            </div>
-                        </div>
-                        <div className="col-sm-4">
-                            <div className="card mb-4 shadow-sm">
                                 <Link to="/course">
                                     <div class="card-body">
-                                    <p>Cursos</p>
                                         <img src={curso} className="Me-tools" alt="curso"/>
                                     </div>
                                 </Link>
-                            </div>
-                        </div>
+                        
                     </div>
                     <br></br>
                     <Switch>

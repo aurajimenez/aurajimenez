@@ -18,7 +18,7 @@ class Hobbies extends Component {
     render() {
         return (
             <Router>
-                <div className="container" >
+                <div className="containerH" >
                     <div className="row">
                         <div className="col-sm-4">
                             <div className="card mb-4 shadow-sm">
@@ -49,11 +49,13 @@ class Hobbies extends Component {
                         </div>
                     </div>
                     <br></br>
+                    <div className="col-8">
                     <Switch>
                         <Route exact path="/sport" component={Sport}/>
                         <Route exact path="/food" component={Food}/>
                         <Route exact path="/travel" component={Travel}/>
                     </Switch>
+                    </div>
                 </div>
             </Router>
         )
